@@ -8,7 +8,7 @@
 
 
 <ion-content padding>
-
+ <ion-grid fixed>
   <ion-item>
     <ion-label floating>Username</ion-label>
     <ion-input [(ngModel)]="profile.username"></ion-input>
@@ -25,5 +25,5 @@
   </ion-item>
 
   <button ion-button clear block (click)="createProfile()">Create Profile</button>
-
+ </ion-grid>
 </ion-content>

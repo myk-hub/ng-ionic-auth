@@ -8,7 +8,7 @@
 
 
 <ion-content padding>
-
+ <ion-grid fixed>
   <ion-item>
     <ion-label floating>Email Adress</ion-label>
     <ion-input type="text" [(ngModel)]="user.email"></ion-input>
@@ -21,5 +21,5 @@
 
   <button ion-button (click)="login(user)">Login</button>
   <button ion-button color="light" (click)="register()">Register</button>
-
+</ion-grid>
 </ion-content>
