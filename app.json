@@ -1,0 +1,7 @@
+{
+    "name": "ng-ionic-auth-app",
+    "description": "Angular 5 and Ionic auth app",
+    "repository": "https://github.com/usernamen7/ng-ionic-auth",
+    "logo": "https://www.joshmorony.com/static/icon-ionic.png",
+    "keywords": ["ionic3", "heroku", "angular"]
+}
